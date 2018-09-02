@@ -1,0 +1,30 @@
+{
+  "name": "tartarus",
+  "version": "1.0.0",
+  "description": "interface middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xtx1130/tartarus.git"
+  },
+  "keywords": [
+    "interface",
+    "koa",
+    "middleware"
+  ],
+  "author": "xtx1130@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xtx1130/tartarus/issues"
+  },
+  "homepage": "https://github.com/xtx1130/tartarus#readme",
+  "dependencies": {
+    "koa": "^2.5.2"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
