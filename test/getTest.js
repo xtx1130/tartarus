@@ -1,8 +1,10 @@
 'use strict'
 
-const Get = require('../lib/app').GetDecorator
-const getMap = require('../lib/app').getMap
+const Get = require('../lib/app').router.GetDecorator
+const getMap = require('../lib/app').router.getMap
+const Controller = require('../lib/app').controller.ControllerDecorator
 
+@Controller('xtx')
 class Test {
     @Get('t')
     test() {
