@@ -7,5 +7,6 @@
     - @Get
     - @Post
     - @Auth
+    - @All
   - @module
     - @Request
