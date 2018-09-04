@@ -14,7 +14,7 @@ class Test {
         return 123
     }
 }
-
+console.log(Test._name)
 let test = new Test()
 
 console.log(getMap)
