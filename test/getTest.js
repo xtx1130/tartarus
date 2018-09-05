@@ -13,5 +13,5 @@ class Test {
         return 123
     }
 }
-console.log(Test.prototype)
+console.log(Test.prototype.__GET__)
 let test = new Test()
