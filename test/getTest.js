@@ -1,6 +1,6 @@
 'use strict'
 
-const Get = require('../lib/app').router.GetDecorator
+const Get = require('../lib/app').router.Get
 const Controller = require('../lib/app').controller.ControllerDecorator
 
 @Controller('xtx')
