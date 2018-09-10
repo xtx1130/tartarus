@@ -15,3 +15,4 @@ class Test {
 }
 console.log(Test.prototype.__GET__)
 let test = new Test()
+console.log(test.__NAME__, test.__GET__.t())
